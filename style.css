@@ -39,6 +39,7 @@ body {
     padding: 25px;
     margin-top: 30px;
     border-radius: 10px;
+
 }
 
 .imagem-documentos {
@@ -53,4 +54,29 @@ body {
 }
 .dados-right {
     flex: 2;
+}
+
+.dados-pessoais {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.informacao-funcionários {
+  display: flex;
+  justify-content: space-between;
+  width: 950px;
+ 
+}
+
+.informacao-funcionários p {
+    background-color: #ccc;
+    line-height: 2;
+    padding-left: 2px 8px 2px 8px ;
+    font-size: 18px;
+    border-radius:4px ; 
 }
