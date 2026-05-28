@@ -111,3 +111,11 @@ body {
     width: 950px;
     gap: 20px;
 }
+
+input {
+    height: 32px;
+    border: solid 1px #cdcdcd;
+    border-radius: 4px;
+    margin-top: 8px;
+    outline: none;
+}
