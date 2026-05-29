@@ -15,20 +15,20 @@
              <h1>Ficha de Cadastro de Funcionário</h1>
              <p>Formulário para coleta de dados pessoais, documentos e informações necessárias para admissão e registro interno do colaborador.</p>
         </div>
- </div>
+    </div>
+ 
      <div class="documentos-necessarios">
-        <h2>Documentos necessários para a documentação </h2>
-        <div class="colunas"></div>    
-        <div class="imagem-documentos">
-            <img src="verificado.png">
+        <h2>Documentos necessários para contratação</h2>
+        <div class="colunas">
+            <div class="image-doc">
+                <img src="images/verificado.png"></img>
             </div>
-            <div class="dados-left">
-
-        <ul>
-            <li>Documeto de Identidade</li>
-            <li>CPF:</li>
+     <div class="dados-left">
+     <ul>
+            <li>Documeto de Identidade (RG)</li>
+            <li>CPF</li>
             <li>Carteira de trabalho (fisica ou digital)</li>
-            <li>Comprovante de Residência</li>
+            <li>Comprovante de Residência atualizado</li>
         </ul>
     </div>
     <div class="dados-right">
@@ -39,37 +39,92 @@
             <li>PIS/PASEP (se possuir)</li>
         </ul>
     </div>
+ </div>
+ </div>
+ <div class="dados-pessoais">
+   <div class="informacao-funcionario">
+        <h2>1.Dados Pessoais</h2>
+        <p>informações básicas do Funcionário</p>
+     </div>  
+
+
+     <div class="linha">
+        <div class="grande">
+                <label>Nome Completo</label>
+                <input type="text">
+        </div>
+        <div class="medio">
+                <label>Nome Social</label>
+                <input type="text">
+        </div>
+        <div class="medio">
+            <label>Sexo</label>
+            <select id="Sexo">
+            <option value=""disabled selected hidden>Selecione</option>
+            <option value="">Masculino</option>
+            <option value="">Feminino</option>
+            </select>
+        </div>
+        </div>
+        <div class="linha">
+        <div class="medio">
+            <label>Nacionalidade</label>
+            <select id="nacionalidade">
+            <option value=""disabled selected hidden>Selecione</option>
+            <option value="">Masculino</option>
+            <option value="">Feminino</option>
+            </select>
+        </div>
+        <div class="medio">
+            <label>Data de nascimento</label>
+            <input type="date">
+        </div>
+        <div class="medio">
+            <label>local de nascimento</label>
+            <input type="text">
+        </div>
+        <div class="pequeno">
+            <label>UF</label>
+            <select id="nacionalidade">
+            <option value=""disabled selected hidden>Selecione</option>
+           <option value="AC">AC</option>
+    <option value="AL">AL</option>
+    <option value="AP">AP</option>
+    <option value="AM">AM</option>
+    <option value="BA">BA</option>
+    <option value="CE">CE</option>
+    <option value="DF">DF</option>
+    <option value="ES">ES</option>
+    <option value="GO">GO</option>
+    <option value="MA">MA</option>
+    <option value="MT">MT</option>
+    <option value="MS">MS</option>
+    <option value="MG">MG</option>
+    <option value="PA">PA</option>
+    <option value="PB">PB</option>
+    <option value="PR">PR</option>
+    <option value="PE">PE</option>
+    <option value="PI">PI</option>
+    <option value="RJ">RJ</option>
+    <option value="RN">RN</option>
+    <option value="RS">RS</option>
+    <option value="RO">RO</option>
+    <option value="RR">RR</option>
+    <option value="SC">SC</option>
+    <option value="SP">SP</option>
+    <option value="SE">SE</option>
+    <option value="TO">TO</option>
+            </select>
+        </div>
+        </div>
      </div>
-    <div class="dados-pessoais">
-        <div class="informacao-funcionários">
-            <h2> 1. Dados Pessoais
-             <p>informações básicas de funcionarios</p>   
-    </div>
-         <div>
-           <div class="linha">
-            <div class="grande">
-             <label>Nome Completo</label>
-             <input type="text">        
-            
-            </div>
-            <div class="medio">
-             <label>Nome Social</label>
-             <input type="text">               
-           </div>     
-             <div class="medio">
-                <label>Sexo</label>
-                 <input type="text">   
-             </div>
-             <div class="grande">
-                <label>Data de Nascimento</label>
-                <input type="date">
-                
-                <div class="medio">
-                 <label>Local de Nascimento</label>
-                 <input type="text">       
-                </div>
-                
-         </div>   
-    </div>
+     <div class="linha">
+     <div class="grande">
+        <label>Endereço(rua,n°,complemento)</label>
+        <input type="text">
+     </div>   
+</div>
+
+
 </body>
 </html>
